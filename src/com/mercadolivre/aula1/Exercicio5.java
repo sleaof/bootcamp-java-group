@@ -1,4 +1,4 @@
-package com.company;
+package com.mercadolivre.aula1;
 
 public class Exercicio5 {
 }
