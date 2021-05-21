@@ -1,5 +1,7 @@
 package com.company.aula01;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -15,7 +17,7 @@ public class Main {
 
         //exercicio04(scanner);
 
-        //exercicio05(scanner);
+        exercicio05(scanner);
     }
 
     public static void exercicio01(Scanner scanner) {
@@ -69,10 +71,10 @@ public class Main {
         System.out.println("04. Digite um valor para n: ");
         int n = scanner.nextInt();
 
-        for (int i = 2; i < n + 1; i++) {
+        for (int i = 2; i <= n; i++) {
             if (primo(i) == true) {
                 System.out.println("O numero " + i + " e primo");
-            } else{
+            } else {
                 System.out.println("O numero " + i + " nao e primo");
             }
         }
@@ -87,6 +89,25 @@ public class Main {
         System.out.println("05. Digite um valor para d: ");
         int d = scanner.nextInt();
 
-    }
+        int counterN = 0;
+        int numero = 0;
 
+        while (counterN != n) {
+            int counterM = 0;
+            numero += 1;
+            String sequencia = String.valueOf(numero);
+            for (int i = 0; i < sequencia.length(); i++) {
+                char ch = sequencia.charAt(i);
+                if (Character.getNumericValue(ch) == d) {
+                    counterM++;
+                }
+            }
+
+            if (counterM >= m) {
+                System.out.println(numero);
+                counterN++;
+            }
+        }
+
+    }
 }
