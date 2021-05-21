@@ -1,8 +1,8 @@
-package com.company.aula02;
+package com.digitalHouse.aula02.tm.aula04.exec01;
 
 import java.util.*;
 
-public class Escola {
+public class Main {
     public static void main(String[] args) {
         List<Estudante> estudantes = new ArrayList<Estudante>();
 

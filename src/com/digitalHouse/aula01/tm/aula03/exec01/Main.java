@@ -1,24 +1,8 @@
-package com.company.aula01;
+package com.digitalHouse.aula01.tm.aula03.exec01;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        //exercicio01(scanner);
-
-        //exercicio02(scanner);
-
-        //exercicio03(scanner);
-
-        //exercicio04(scanner);
-
-        exercicio05(scanner);
-    }
 
     public static void exercicio01(Scanner scanner) {
         System.out.println("Exercicio 01");
