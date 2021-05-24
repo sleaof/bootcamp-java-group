@@ -13,7 +13,7 @@ public class Main {
         Comparator<Integer> c = (i1, i2) -> i2 - i1;
 
 
-        Sorter sorter = SorterFactory.getInstance("sorter");
+        Sorter sorter = MyFactory.getInstance("sorter");
 
         Timer timer = new Timer();
         timer.start();
