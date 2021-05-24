@@ -1,29 +1,31 @@
-package com.mercadolibre.jesfernandes;
+package com.mercadolibre.jesfernandes.javaoop.aula3;
+
+//Desenvolva um programa para informar se um um número n é primo ou não,
+//sendo n um valor que o usuário irá inserir pelo console.
+//Lembre-se que um número é primo quando só é divisível por 1 e por si mesmo.
 
 import java.util.Scanner;
 
 public class Exercicio3 {
 
     public static void main(String[] args) {
-        System.out.println("Programa para mostrar os números primos:");
-        System.out.println("Informe um número:");
+
         Scanner scanner = new Scanner(System.in);
         Integer n = scanner.nextInt();
-
-        Boolean valida = false;
+        Boolean verify = false;
 
         for (int i = 2; i < n; i++) {
-
             if (n % i == 0) {
-                valida = true;
+                verify = true;
                 break;
             }
         }
 
-        if (valida) {
+        if (verify) {
             System.out.printf("Número " + n + " nao é primo");
         } else {
             System.out.printf("Número " + n + " é primo");
         }
+
     }
 }
