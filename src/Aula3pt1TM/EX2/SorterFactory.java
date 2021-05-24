@@ -12,11 +12,10 @@ public class SorterFactory {
         Properties properties =  new Properties();
 
         try {
-            properties.load(new FileInputStream("./src/MyFactory.properties"));
+            properties.load(new FileInputStream("./src/Aula3pt1TM/EX2/MyFactory.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return (Sorter) Class.forName(properties.get(key).toString()).getConstructor().newInstance();
     }
 }
