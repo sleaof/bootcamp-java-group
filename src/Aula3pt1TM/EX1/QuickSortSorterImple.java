@@ -1,4 +1,4 @@
-package Aula3pt1TM;
+package Aula3pt1TM.EX1;
 
 import java.util.Comparator;
 

@@ -1,8 +1,4 @@
-package Aula3pt1TM;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
+package Aula3pt1TM.EX1;
 
 public class Pessoa  implements Precedente<Pessoa>{
     private String nome;

@@ -1,4 +1,4 @@
-package Aula3pt1TM;
+package Aula3pt1TM.EX1;
 
 public class Celular implements Precedente<Celular> {
     private int number;

@@ -1,6 +1,4 @@
-package Aula3pt1TM;
-
-import javax.swing.*;
+package Aula3pt1TM.EX1;
 
 public class SortUtil {
     public static <T> void sort(Precedente<T>[] arr) {
