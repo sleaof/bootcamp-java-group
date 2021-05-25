@@ -11,7 +11,7 @@ public class SorterFactory {
         Properties properties =  new Properties();
 
         try {
-            properties.load(new FileInputStream("./MyFactory.properties"));
+            properties.load(new FileInputStream("./src/MyFactory.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
