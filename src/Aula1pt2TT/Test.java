@@ -1,9 +1,5 @@
 package Aula1pt2TT;
 
-import javax.crypto.AEADBadTagException;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Test {
 
     public void numero() {
@@ -15,7 +11,9 @@ public class Test {
         System.out.format(formattedString);
         int n = formattedString.length();
         System.out.print(" "+ n);
-
+        String digitos = "1234567453535";
+        String ultimos = digitos.substring(digitos.length()-1);
+        System.out.print("  " + ultimos);
     }
 
     public static void main(String[] args) {
