@@ -2,9 +2,9 @@ package com.mercadolibre.jesfernandes.javaoop.aula5.exercicio2;
 
 import java.util.Comparator;
 
-public class QuickSortSorterImpl<T> implements Sorter<T>{
+public class QuickSort<T> implements Sorter<T>{
 
-    private Comparator<T> comparator;
+    Comparator<T> comparator;
 
     @Override
     public void sort(T[] arr, Comparator<T> c) {
